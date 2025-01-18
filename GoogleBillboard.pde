@@ -6,6 +6,7 @@ public void setup()
     dNum = Double.parseDouble(e.substring(i,i+10));
     if(isPrime(dNum)) {
       println(dNum);
+break;
     }
   }
 }  
